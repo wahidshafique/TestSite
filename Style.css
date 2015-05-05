@@ -1,0 +1,83 @@
+﻿.container {
+    padding: 0;
+}
+
+body {
+    background-color: #2B2B2B;
+}
+
+.list-inline, .form-inline {
+    font-family: 'Ubuntu';
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.form-inline {
+    padding: 5%;
+}
+
+h1 {
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu';
+}
+
+p {
+    font-family: 'Lato';
+}
+
+.jumbotron {
+    margin: 0px;
+}
+
+.main {
+    padding: 15%;
+    margin: 0px;
+}
+
+.main, .bottom {
+    color: white;
+    background-color: #2B2B2B;
+}
+
+.sub, .top {
+    background-color: #EAC90F;
+}
+
+.sub {
+    padding: 7.5%;
+}
+
+.social li {
+    padding: 0 2% 0 2%;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.fa-twitter-square:hover:before {
+    color: rgba(0, 172, 237, 1);
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.fa-facebook-square:hover:before {
+    color: rgba(59, 89, 152, 1);
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.fa-github-square:hover:before {
+    color: white;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.row p {
+    padding: 10% 10% 0 10%;
+}
