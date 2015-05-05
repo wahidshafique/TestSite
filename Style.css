@@ -33,7 +33,8 @@ p {
 .jumbotron {
     margin: 0px;
 }
-#imgdsubtitle{
+
+#imgdsubtitle {
     padding: 5% 0 0 0;
 }
 
@@ -90,10 +91,17 @@ p {
     padding: 7% 0 0 0;
 }
 
-.imageholder p {
+    .imageholder p {
+        padding: 7% 0% 0% 0%;
+    }
+
+.col-sm-6 p {
     padding: 7% 0% 0% 0%;
 }
 
-.col-sm-6 p {
-    padding: 7% 0% 0% 0;
+#bottomp {
+    padding: 7% 0% 10% 0%;
+}
+.imageholder #bottomp{
+    padding: 7% 0% 40% 0;
 }
