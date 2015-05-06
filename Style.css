@@ -76,6 +76,24 @@ p {
     padding: 7% 0% 40% 0;
 }
 
+/*FORMS*/
+.form-group {
+    background-color: #EAC90F;
+    padding: 3px 5px 0px 10px;
+    margin-bottom:100px;
+}
+
+    .form-group .form-control-static {
+        color: black;
+        font-family: 'Lato';
+        padding: 1px 10px 1px 1px;
+        margin-bottom:5px;
+    }
+
+#email, #sbj, #msg {
+    color: white;
+    background-color: #2B2B2B;
+}
 /*ICONS*/
 
 .social li {
