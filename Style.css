@@ -1,9 +1,5 @@
-﻿.container {
-    padding: 0;
-}
-
-body {
-    background-color: #2B2B2B;
+﻿body{
+    overflow-x: hidden;
 }
 
 .list-inline, .form-inline {
@@ -56,6 +52,32 @@ p {
     padding: 7.5%;
 }
 
+.row p {
+    padding: 10% 10% 0 10%;
+}
+
+.imageholder {
+    padding: 7% 0 0 0;
+}
+
+    .imageholder p {
+        padding: 7% 0% 0% 0%;
+    }
+
+.col-sm-6 p {
+    padding: 7% 0% 0% 0%;
+}
+
+#bottomp {
+    padding: 7% 0% 10% 0%;
+}
+
+.imageholder #bottomp {
+    padding: 7% 0% 40% 0;
+}
+
+/*ICONS*/
+
 .social li {
     padding: 0 2% 0 2%;
 }
@@ -80,28 +102,4 @@ p {
     color: white;
     transition: all .2s ease-in-out;
     transform: scale(1.1);
-}
-
-
-.row p {
-    padding: 10% 10% 0 10%;
-}
-
-.imageholder {
-    padding: 7% 0 0 0;
-}
-
-    .imageholder p {
-        padding: 7% 0% 0% 0%;
-    }
-
-.col-sm-6 p {
-    padding: 7% 0% 0% 0%;
-}
-
-#bottomp {
-    padding: 7% 0% 10% 0%;
-}
-.imageholder #bottomp{
-    padding: 7% 0% 40% 0;
 }
